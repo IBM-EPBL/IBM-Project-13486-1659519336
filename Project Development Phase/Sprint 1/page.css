@@ -1,0 +1,170 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsMU4X_ppXrnkQYxX_fjv4bTototxVd6v4ig&usqp=CAU');
+    background-position: 100%;
+    overflow: x hidden;
+}
+
+h1{
+    background-image: url('https://www.99images.com/download-image/853198/1280x720');
+    color: blanchedalmond;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgray;
+}
+.list{
+    float: right;
+}
+
+.list_a{
+    display: block;
+    color: mintcream;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.list_a:hover{
+    background-color: black;
+}
+
+.pic{
+    position:absolute;
+}
+
+.box1{
+    position: absolute;
+    width: 402px;
+    height: 602px;
+    border-style: double;
+    align-content: center;
+}
+.box{
+    position:relative;
+    height:70px;
+    width: 550px;
+    background-color: rgb(221, 212, 212);
+    border-radius: 50px;
+    left:32%;
+    top: 380px;
+    align-content: center;
+}
+
+
+.dept{
+    position:relative;
+    font-size:30px;
+    font-weight: bold;
+    margin-left:65px;
+    top: 15px;
+}
+
+.depttext{
+    position: relative;
+    border-style:groove;
+    border-color:black;
+    width: 50%;
+    height:50%;
+    margin-top: -3%;
+    margin-left: 45%;
+    align-content: center;
+}
+
+.input-icon i {
+    position: absolute;
+}
+  
+.input-icon {
+    width: 100%;
+    margin-bottom: 10px;
+    right: 200px;
+}
+  
+.ic{
+    padding: 10px;
+    min-width: 40px;
+    font-size: 40px;
+}
+
+.text{
+    position: absolute;
+    width: 550px;
+    border-style: hidden;
+    left: 450px;
+}
+
+.box2{
+    position: absolute;
+    width: 301px;
+    height: 602px;
+    border-style: double;
+    align-content: right;
+    margin-left: 754px;
+    
+    display: flex;
+    padding-left: 50px 10px;
+    top: 0px;
+}
+
+.pic1{
+    position: relative;
+    border-style: groove;
+}
+
+.text1{
+    position: absolute;
+    width: 950px;
+    border-style: hidden;
+}
+
+.box3{
+    position: absolute;
+    width: 301px;
+    height: 301px;
+    border-style: hidden;
+    align-content: center;
+    margin-left: 1030px;
+    top: 0px;
+}
+
+.pic2{
+    position: relative;
+}
+
+.box4{
+    position: absolute;
+    width: 301px;
+    height: 301px;
+    border-style: hidden;
+    align-content: center;
+    margin-left: 1030px;
+    top: 295px;
+}
+
+.footer{
+    position:absolute;
+    width: 1336px;
+    height: 150px;
+    top: 110%;
+    background-color: rgb(160, 192, 202);
+    opacity: 0.9;
+}
+
+.icon i{
+    position: absolute;
+}
+
+.icon{
+    width: 100%;
+    left: 10px;
+    opacity: 1;
+    color: rgb(54, 40, 13);
+}
