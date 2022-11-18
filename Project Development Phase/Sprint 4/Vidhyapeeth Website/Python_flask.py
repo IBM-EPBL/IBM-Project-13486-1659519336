@@ -61,16 +61,6 @@ data=(("Aligarh Muslim University","Uttar Pradesh","Aligarh","https://www.amu.ac
        ("Visvesvaraya National Institute of Technology","Maharashtra","Nagpur","https://vnit.ac.in/","https://goo.gl/maps/VNnyPyWo7jZp5xCX7",65,54,75),
        ("Yashwantrao Chavan Maharashtra Open University","Maharashtra","Sawargaon","https://www.ycmou.ac.in/","https://goo.gl/maps/Dc2hzzR24nu5fjWg6",40,93,45)
 )
-d1_civil=[]
-d2_civil=[]
-d1_cse=[]
-d2_cse=[]
-d1_ece=[]
-d2_ece=[]
-d1_eee=[]
-d2_eee=[]
-d1_mech=[]
-d2_mech=[]
 
 
 app = Flask(__name__)
@@ -100,6 +90,8 @@ def departments():
 
 @app.route('/civil',methods=['POST'])
 def civil():
+    d1_civil=[]
+    d2_civil=[]
     u=0
     e=0
     percent= request.form.get('twelC',type=float)
@@ -135,6 +127,8 @@ def civil():
 
 @app.route('/cse',methods=['POST'])
 def cse():
+    d1_cse=[]
+    d2_cse=[]
     d=1
     percent1= request.form.get('twel',type=float)
     cities=request.form["cities"]
@@ -169,6 +163,8 @@ def cse():
     
 @app.route('/ece',methods=['POST'])
 def ece():
+    d1_ece=[]
+    d2_ece=[]
     d=3
     percent2= request.form.get('twelEC',type=float)
     cities=request.form["citiesEC"]
@@ -205,6 +201,8 @@ def ece():
     
 @app.route('/eee',methods=['POST'])
 def eee():
+    d1_eee=[]
+    d2_eee=[]
     d=2
     percent3= request.form.get('twelE',type=float)
     cities=request.form["citiesE"]
@@ -238,8 +236,9 @@ def eee():
     
 @app.route('/mech',methods=['POST'])
 def mech():
+    d1_mech=[]
+    d2_mech=[]
     d=4
-    
     percent4= request.form.get('twelM',type=float)
     cities=request.form["citiesM"]
     univ4 = request.form["uniM"]
