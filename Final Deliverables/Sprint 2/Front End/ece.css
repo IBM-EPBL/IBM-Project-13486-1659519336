@@ -1,0 +1,242 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9_dPrdV0F1rhV986FhB_7aQT98PgL2AAmfA&usqp=CAU');
+    background-position: 100%;
+    overflow: x hidden;
+}
+
+header{
+    background-color: blue;
+    background-image: linear-gradient(rgb(22, 22, 92),rgb(179, 230, 245));
+    color: blanchedalmond;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 0;
+    font-size: 250%;
+}
+
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgray;
+    background-image: linear-gradient(rgb(172, 196, 231),black);
+}
+.list{
+    float: right;
+}
+
+.list_a{
+    display: block;
+    color: mintcream;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.list_a:hover{
+    background-color: black;
+}
+
+h4{
+    font-size: 150%;
+    color: rgb(245, 237, 237);
+}
+
+.link_a{
+    font-size: 125%;
+}
+
+.link_a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .link_a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .link_a:hover {
+    color: rgb(2, 2, 2);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .link_a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+.pic{
+    position: relative;
+    opacity: 0.4;
+    height:400px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.box2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left:1%;
+    top:414px;
+    border-style: double;
+    align-content: center;
+    background-image: linear-gradient(to right,rgb(102, 91, 77),rgb(144, 164, 194));
+    box-shadow: 5px 5px 5px rgb(51, 57, 71);
+}
+
+.text{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-style: hidden;
+    background-image: linear-gradient(to right,rgb(102, 91, 77),rgb(144, 176, 196));
+    left: 25px;
+    margin-top: 25px;
+}
+
+.box3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left:1%;
+    border-style: double;
+    align-content: center;
+    background-image: linear-gradient(to right,rgb(36, 33, 33),rgb(126, 143, 201));
+    box-shadow: 5px 5px 5px rgb(51, 57, 71);
+}
+
+.pic1{
+    position: relative;
+    opacity: 0.8;
+    margin-left: 25px;
+    margin-top: 25px;
+    align-content: center;
+    
+}
+
+.box{
+    position:relative;
+    height:400px;
+    width: 500px;
+    border-radius: 10%;
+    left:45%;
+    top: 100px;
+    align-content: center;
+    box-shadow: 10px 10px 5px rgb(75, 104, 104);
+    color:rgb(0, 0, 0);
+}
+
+.log{
+    position:relative;
+    text-align: center;
+    font-size:43px;
+    font-weight: bold;
+    top: 12px;
+    text-shadow: 2px 2px ;
+}
+
+.twel{
+    position:relative;
+    font-size:25px;
+    font-weight: bold;
+    margin-left:42px;
+    top: 4px;
+}
+
+.tweltext{
+    position: relative;
+    border-style: groove;
+    border-color:black;
+    width: 50%;
+    height: 6%;
+    margin-left: 10px;
+    align-content: center;
+}
+
+.city{
+    position:relative;
+    font-size:25px;
+    font-weight: bold;
+    margin-left:46px;
+    top: 4px;
+}
+
+.citytext{
+    position: relative;
+    border-style: groove;
+    border-color:black;
+    width: 50%;
+    height: 6%;
+    margin-left: 26%;
+    align-content: center;
+}
+
+.sub{
+    position: relative;
+    font-size:30px;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 25px;
+    opacity: 1;
+}
+
+.univ{
+    position:relative;
+    font-size:25px;
+    font-weight: bold;
+    margin-left:42px;
+    top: 4px;
+}
+
+.univtext{
+    position: relative;
+    border-style:groove;
+    border-color:black;
+    width: 50%;
+    height: 6%;
+    margin-left: 48%;
+    margin-top: -22px;
+}
+
+.input-icon i {
+    position: absolute;
+}
+  
+.input-icon {
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+.ic{
+    padding: 10px;
+    color: rgb(12, 12, 12);
+    min-width: 50px;
+    text-align: center;
+}
+
+.footer{
+    position:relative;
+    width: 100%;
+    height: 150px;
+    top: 33%;
+    background-color: rgb(99, 133, 143);
+    opacity: 0.9;
+}
+
+.icon i{
+    position: absolute;
+}
+
+.icon{
+    width: 100%;
+    left: 10px;
+    opacity: 1;
+    color: wheat;
+}
